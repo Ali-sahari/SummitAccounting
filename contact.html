@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      .form-control {
+        border: none !important;
+      }
+
+      .form-control:focus{
+        box-shadow: none !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <small><i class="fas fa-phone me-2"></i> +905366298316</small>
+          </div>
+          <div class="col-md-4">
+            <small><i class="fas fa-phone me-2"></i> +905366298316</small>
+          </div>
+          <div class="col-md-4">
+            <small
+              ><i class="fas fa-phone me-2"></i>
+              info@alaaeldinalhallak.com</small
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <nav
+        id="mainNavbar"
+        class="navbar navbar-expand-lg navbar-light bg-white border-bottom"
+      >
+        <div class="container">
+          <a href="#" class="navbar-brand fw-bold fs-4">
+            <i class="fas fa-calculator text-primary-custom me-2"></i>شركة القمة
+            للمحاسبة</a
+          >
+          <a
+            href="./contact.html"
+            class="btn btn-sm btn-primary d-none d-md-inline-block me-3"
+          >
+            طلب استشارة مجانية
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mainNavbar">
+            <div class="d-flex align-items-center gap-4">
+              <a href="./index.html" class="nav-link active fw-semibold">
+                الرئيسية
+              </a>
+
+              <a href="./service.html" class="nav-link fw-semibold"> خدماتنا</a>
+              <a href="./contact.html" class="nav-link fw-semibold">
+                تواصل معنا</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="py-5 text-white hero-section"
+        style="background: linear-gradient(#1c3b70, #2da2c4)"
+      >
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-6">
+              <h1 class="display-1 fw-bold mb-4 slide-up text-white">
+                تواصل معنا
+              </h1>
+              <p class="lead text-white fs-5">
+                نحن هنا للإجابة على جميع استفساراتك وتقديم أفضل الحلول المحاسبية
+                والمالية لمؤسستك. فريقنا المحترف جاهز لمساعدتك في أي وقت.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact form section -->
+      <section class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card-shadow h-100">
+                <div class="card-body">
+                  <h3 class="card-title text-primary-custom">
+                    <i class="fas fa-phone me-2"></i> تواصل معنا
+                  </h3>
+
+                  <div class="mb-4">
+                    <i class="fas fa-map-marker-alt me-2"></i> العنوان :
+                    Istanbul, Turkey
+                  </div>
+                  <div class="mb-4">
+                    <i class="fas fa-envelope me-2"></i> البريد الإلكتروني :
+                    info@alaaeldinalhallak.com
+                  </div>
+                  <div class="mb-4">
+                    <i class="fas fa-phone me-2"></i> الهاتف : +905366298316
+                  </div>
+                  <div class="mb-4">
+                    <i class="fas fa-fax me-2"></i> الفاكس : +905366298316
+                  </div>
+                  <div class="mb-4">
+                    <a
+                      href="https://wa.me/905366298316"
+                      class="btn btn-primary"
+                    >
+                      <i class="fa-brands fa-whatsapp me-2"></i>تواصل معنا على
+                      واتساب
+                    </a>
+                  </div>
+                  <div class="mb-4 pt-4 border-top">
+                    <p class="text-muted small mb-0">
+                      ملاحظة: نرد على جميع الاستفسارات خلال 24 ساعة خلال أيام
+                      العمل. <br />
+                      للاستفسارات العاجلة، يرجى الاتصال بنا مباشرة.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="card shadow">
+                <div class="card-body">
+                  <h3 class="card-title mb-4 text-primary-custom">
+                    <i class="fas fa-paper-plane text-accent"></i> أرسل رسالة
+                  </h3>
+
+                  <form action="">
+                    <div class="row g-3">
+                      <div class="col-md-6">
+                        <label for="" class="form-label">
+                          <i class="fas fa-user me-2"></i>الاسم الكامل
+                          <span class="text-danger">*</span>
+                        </label>
+                        <input
+                          class="form-control"
+                          placeholder="الاسم الكامل"
+                          required
+                          type="text"
+                          autofocus
+                          spellcheck="true"
+                          pattern="[a-zA-Z]{3,}"
+                          title="يجب أن يكون الاسم الكامل أطول من 3 أحرف"
+                        />
+                        <input
+                          pattern="[0-9]{10}"
+                          title="يجب أن يكون الهاتف 10 أرقام"
+                          type="checkbox"
+                          class=""
+                          min="10"
+                          max="100"
+                          checked
+                          autocomplete="new-password"
+                        />
+                        <input multiple type="file" class="form-control" />
+                      </div>
+
+                      <div class="col-md-6">
+                        <label for="" class="form-label">
+                          <i class="fas fa-user me-2"></i> البريد الإلكتروني
+                          <span class="text-danger">*</span>
+                        </label>
+                        <input
+                          class="form-control"
+                          placeholder="الاسم الكامل"
+                          required
+                          type="email"
+                        />
+                      </div>
+
+                      <div class="col-md-6">
+                        <label for="" class="form-label">
+                          <i class="fas fa-user me-2"></i> هاتف الجوال
+                          <span class="text-danger">*</span>
+                        </label>
+                        <input
+                          class="form-control"
+                          placeholder="الاسم الكامل"
+                          required
+                          type="tel"
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <label for="" class="form-label">
+                          <i class="fas fa-user me-2"></i> نوع الخدمة
+                        </label>
+                        <select name="" id="" class="form-select">
+                          <option value="1">الخدمة الاولى</option>
+                          <option value="2">الخدمة الثانية</option>
+                          <option value="3">الخدمة الثالثة</option>
+                          <option value="4">الخدمة الرابعة</option>
+                          <option value="5">الخدمة الخامسة</option>
+                          <option value="6">الخدمة السادسة</option>
+                          <option value="7">الخدمة السابعة</option>
+                          <option value="8">الخدمة الثامنة</option>
+                          <option value="9">الخدمة التاسعة</option>
+                          <option value="10">الخدمة العاشرة</option>
+                        </select>
+                      </div>
+                      <div class="col-md-12">
+                        <label for="" class="form-label">
+                          <i class="fas fa-user me-2"></i> الرسالة
+                        </label>
+                        <textarea
+                          rows="6"
+                          maxlength="1000"
+                          minlength="10"
+                          name=""
+                          id=""
+                          class="form-control"
+                          placeholder="الرسالة"
+                        ></textarea>
+                        <div class="form-text">
+                          <i class="fas fa-info-circle me-2"></i>
+                          يجب أن يكون الرسالة أطول من 10 أحرف وأقصر من 1000 حرف
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            id="agree"
+                          />
+                          <label for="" class="form-check-label">
+                            اوافق على الشروط والأحكام
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <button type="submit" class="btn btn-primary btn-lg">
+                          أرسل الرسالة <i class="fas fa-paper-plane ms-2"></i>
+                        </button>
+                        <button type="reset" class="btn btn-secondary btn-lg">
+                          اعادة التسجيل <i class="fas fa-undo ms-2"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Additional contact section -->
+      <section class="py-5 bg-light">
+        <div class="container fade-in">
+          <div class="text-center mb-5">
+            <h3 class="text-primary-custom">شركة القمة للمحاسبة</h3>
+            <p>
+              نوفر حلول محاسبية متكاملة واحترافية تساعد مؤسستك على النمو
+              والامتثال للقوانين الضريبية. خبرة تزيد عن 15 عاماً في مجال
+              المحاسبة والتدقيق والاستشارات المالية.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card text-center shadow-sm h-100">
+                <div class="card-body p-4">
+                  <div class="service-icon mx-auto mb-3">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <h5 class="text-primary-custom">اتصل بنا</h5>
+                  <p class="text-muted small">للاستفسارات والطلبات المباشرة</p>
+                  <a href="tel:+905366298316" class="btn btn-outline-primary"
+                    ><i class="fas fa-phone-alt me-2"></i> +90 5366 298 316</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card text-center shadow-sm h-100">
+                <div class="card-body p-4">
+                  <div class="service-icon mx-auto mb-3">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <h5 class="text-primary-custom">whatsapp</h5>
+                  <p class="text-muted small">للاستفسارات والطلبات المباشرة</p>
+                  <a href="https://wa.me/905366298316" class="btn btn-success">
+                    <i class="fa-brands fa-whatsapp me-2"></i> +90 5366 298 316
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card text-center shadow-sm h-100">
+                <div class="card-body p-4">
+                  <div class="service-icon mx-auto mb-3">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <h5 class="text-primary-custom">email</h5>
+                  <p class="text-muted small">للاستفسارات والطلبات المباشرة</p>
+                  <a
+                    href="mailto:info@alaaeldinalhallak.com"
+                    class="btn btn-outline-primary"
+                  >
+                    <i class="fas fa-envelope me-2"></i>
+                    info@alaaeldinalhallak.com
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--  map section -->
+      <section class="py-5">
+        <div class="container slide-up">
+          <h3 class="text-center mb-4 text-primary-custom">
+            <i class="fas fa-map-marker-alt me-2"></i>
+            موقعنا على الخريطة
+          </h3>
+          <div class="ratio ratio-21x9">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4999.507372337161!2d32.86420913436541!3d39.922768156755204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34e5242ad129b%3A0x33dc58a378a8aa03!2sAhmetler%20Postanesi!5e0!3m2!1sen!2sbr!4v1763665963941!5m2!1sen!2sbr"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <p class="text-center text-muted small mt-3">
+            <i class="fas fa-map-marker-alt me-2"></i>
+            <strong>العنوان </strong>
+            انقر على الخريطة للتكبير
+          </p>
+        </div>
+      </section>
+
+      <!-- footer section -->
+      <footer class="bg-dark text-white py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h5 class="mb-3">
+                <i class="fas fa-calculator text-primary-custom me-2"></i> شركة
+                القمة للمحاسبة
+              </h5>
+              <p class="text-light">
+                نوفر حلول محاسبية متكاملة واحترافية تساعد مؤسستك على النمو
+                والامتثال للقوانين الضريبية. خبرة تزيد عن 15 عاماً في مجال
+                المحاسبة والتدقيق والاستشارات المالية.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <h5 class="mb-3">الخدمات</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#" class="text-light"
+                    ><i class="fas fa-arrow-left me-2"></i> الخدمات المحاسبية</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-light"
+                    ><i class="fas fa-arrow-left me-2"></i> الخدمات المالية</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-light"
+                    ><i class="fas fa-arrow-left me-2"></i> الخدمات المحاسبية</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-light"
+                    ><i class="fas fa-arrow-left me-2"></i> الخدمات المحاسبية</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5 class="mb-3">معلومات التواصل</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#" class="text-light">
+                    <i class="fas fa-map-marker-alt me-2"></i> العنوان :
+                    Istanbul, Turkey
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:info@alaaeldinalhallak.com" class="text-light"
+                    ><i class="fas fa-envelope me-2"></i> البريد الإلكتروني :
+                    info@alaaeldinalhallak.com
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:+905366298316" class="text-light"
+                    ><i class="fas fa-phone me-2"></i> الهاتف : +905366298316
+                  </a>
+                </li>
+                <li>
+                  <a href="https://wa.me/905366298316" class="text-light"
+                    ><i class="fas fa-fax me-2"></i> الفاكس : +905366298316
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr class="my-4 bg-light" />
+          <div class="row">
+            <div class="col-md-6">
+              <p class="text-light">
+                جميع الحقوق محفوظة لشركة القمة للمحاسبة © 2025
+              </p>
+            </div>
+            <div class="col-md-6">
+              <p class="text-light">ALAA ELDIN ALHALLAK © 2025</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
